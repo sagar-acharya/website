@@ -53,7 +53,7 @@ Clearfix
 	==========================================================================*/
 
 	#main-nav 																		{ height:100px;position:relative; }
-	#logo 																			{ height:100px;width:175px;background:url('../images/logo.png') no-repeat center center;display:block; }
+	#logo 																			{ height:70px;width:175px;background:url('../images/logo.gif') no-repeat center center;display:block; }
 	.wrapper-nav 																	{ height:100px; }
 	.nav-height 																	{ height:100px;position:absolute;z-index:99999; width: 100%; }
 	
@@ -142,7 +142,7 @@ Clearfix
 	
 	.wrapper-nav.sticky #main-nav 													{ height:70px !important; }
 	
-	.wrapper-nav.sticky #logo 														{ background:url('../images/logo-sticky.png') no-repeat center center !important;height:70px !important;top:0 !important; }
+	.wrapper-nav.sticky #logo 														{ background:url('../images/logo.gif') no-repeat center center !important;height:70px !important;top:0 !important; }
 	
 	.wrapper-nav.sticky .sf-menu  li 												{ padding-top:23px !important; }
 	

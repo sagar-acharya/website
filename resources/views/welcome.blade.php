@@ -26,7 +26,7 @@
     <link href="{{asset('front/fonts/et-line-icons.html')}}" rel="stylesheet"/>
     <link rel="stylesheet" href="{{asset('front/css/timeline.css')}}"/> <!-- Resource style -->
 
-    <title>My Resume | One Page HTML5 Responsive Unique Theme</title>
+    <title>Sagar Acharya | Personal Portfolio</title>
 
 </head>
 
@@ -41,7 +41,7 @@
                 <div class="ewf-row">
 
                     <div class="ewf-span3">
-                        <a id="logo" href="javascript:void(0)"></a>
+                        <a id="logo" href="#about"></a>
                     </div>
 
                     <div class="ewf-span9">
@@ -78,35 +78,35 @@
     <ul class="cd-hero-slider autoplay">
         <li class="selected">
             <div class="cd-full-width">
-                <h2>I am a professional web &amp; graphic designer</h2>
-                <p>I Have 8 years of experience in Web and UX design.</p>
-                <a href="#" class="cd-btn">Download Resume</a>
+                <h2>I am a professional web developer</h2>
+                <p>I Have 2 years of experience in Web Development</p>
+                {{--<a href="#" class="cd-btn">Download Resume</a>--}}
             </div> <!-- .cd-full-width -->
         </li>
 
         <li>
             <div class="cd-half-width">
-                <h2>I Do Digital Stuff</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-                <a href="#0" class="cd-btn">Download Resume</a>
-                <a href="#0" class="cd-btn secondary">Purchase Now</a>
+                <h2>I have good knowledge &amp; experience in cloud deployment.</h2>
+                <p>Such as AWS (EC2,S3), Digital Ocean and Linode.</p>
+                {{--<a href="#0" class="cd-btn">Download Resume</a>--}}
+                {{--<a href="#0" class="cd-btn secondary">Purchase Now</a>--}}
             </div> <!-- .cd-half-width -->
 
             <div class="cd-half-width cd-img-container">
-                <img src="{{asset('front/images/tech-1.png')}}" alt="tech 1">
+                <img src="{{asset('front/images/cl_logos.png')}}" alt="tech 1">
             </div> <!-- .cd-half-width.cd-img-container -->
         </li>
 
         <li>
             <div class="cd-half-width cd-img-container">
-                <img src="{{asset('front/images/tech-2.png')}}" alt="tech 2">
+                <img src="{{asset('front/images/stripe_scale.jpg')}}" alt="tech 2">
             </div> <!-- .cd-half-width.cd-img-container -->
 
             <div class="cd-half-width">
-                <h2>Creating User Interface</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-                <a href="#0" class="cd-btn">Download Resume</a>
-                <a href="#0" class="cd-btn secondary">Purchase Now</a>
+                <h2>I have worked on several payment gateways</h2>
+                <p>Gateways i have worked are PayPal, Stripe, Braintree, PayPal Express Checkout</p>
+                {{--<a href="#0" class="cd-btn">Download Resume</a>--}}
+                {{--<a href="#0" class="cd-btn secondary">Purchase Now</a>--}}
             </div> <!-- .cd-half-width -->
 
         </li>
@@ -125,10 +125,10 @@
 
         <li>
             <div class="cd-full-width">
-                <h2>I Make Mobile Apps</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-                <a href="#0" class="cd-btn">Download Resume</a>
-                <a href="#0" class="cd-btn secondary">Purchase Now</a>
+                <h2>I have good experience on several PHP frameworks.</h2>
+                <p>I have worked on Laravel, CakePHP, Codeignitor, Magento, OpenCart</p>
+                {{--<a href="#0" class="cd-btn">Download Resume</a>--}}
+                {{--<a href="#0" class="cd-btn secondary">Purchase Now</a>--}}
             </div> <!-- .cd-full-width -->
         </li>
     </ul> <!-- .cd-hero-slider -->
@@ -138,8 +138,8 @@
             <span class="cd-marker item-1"></span>
             <ul>
                 <li class="selected"><a href="#0"><i class="fa fa-briefcase"></i>Info</a></li>
-                <li><a href="#0"><i class="fa fa-comments-o"></i>Digital</a></li>
-                <li><a href="#0"><i class="fa fa-laptop"></i>Responsive</a></li>
+                <li><a href="#0"><i class="fa fa-cloud"></i>Cloud</a></li>
+                <li><a href="#0"><i class="fa fa-cc-paypal"></i>Gateways</a></li>
                 <li><a href="#0"><i class="fa fa-youtube-play"></i>Video</a></li>
                 <li><a href="#0"><i class="fa fa-smile-o"></i>Bg Image</a></li>
             </ul>
@@ -162,26 +162,17 @@
 
                 <div class="ewf-span6 left">
 
-                    <h1 class="big-heading mrgn-top">Andrew Adams<br /> <strong>Hello! I’m Freelancer</strong></h1>
-                    <p class="big-font">Nunc posuere eu nunc sed laoreet. Nam ornare non nisi ut posuere. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                    <h1 class="big-heading mrgn-top">Sagar Acharya<br /> <strong>Hello! I’m a Web Developer</strong></h1>
+                    <p class="big-font">An ambitious problem solver with a passion for web development. I have much experience of creating logical and innovative solutions to complex problems and has a keen interest in technology and web applications. As someone who takes responsibility for my own personal development, i'm continually evaluating and upgrading my skills so that I stays at the cutting edge of web development. I'm a natural problem solver, who has proven myself by successfully completing projects for IT consultancies, software houses and IT departments.
+
+                        I have developed lots of project using different PHP frameworks like Laravel, Codeigniter, CakePHP, Magento. But my favourite web application framework is Laravel.</p>
 
                     <div class="fixed">
                         <div class="progress-heading">
-                            Ux Design
-                            <span style="left:95%">95%</span>
+                            Cloud Deployment
+                            <span style="left:95%">85%</span>
                         </div>
                         <div class="progress-inner light-red">
-									<span class="progress-bg" data-width="95">
-									</span>
-                        </div>
-                    </div>
-
-                    <div class="fixed">
-                        <div class="progress-heading">
-                            Web Development
-                            <span style="left:85%">85%</span>
-                        </div>
-                        <div class="progress-inner blue">
 									<span class="progress-bg" data-width="85">
 									</span>
                         </div>
@@ -189,28 +180,39 @@
 
                     <div class="fixed">
                         <div class="progress-heading">
-                            Mobile Apps
-                            <span style="left:75%">75%</span>
+                            Web Development
+                            <span style="left:85%">80%</span>
                         </div>
-                        <div class="progress-inner yellowish">
-									<span class="progress-bg" data-width="75">
+                        <div class="progress-inner blue">
+									<span class="progress-bg" data-width="80">
 									</span>
                         </div>
                     </div>
 
                     <div class="fixed">
                         <div class="progress-heading">
-                            Ui Design
-                            <span style="left:65%">65%</span>
+                            Payment Gateways
+                            <span style="left:75%">70%</span>
+                        </div>
+                        <div class="progress-inner yellowish">
+									<span class="progress-bg" data-width="70">
+									</span>
+                        </div>
+                    </div>
+
+                    <div class="fixed">
+                        <div class="progress-heading">
+                            PHP Frameworks
+                            <span style="left:65%">60%</span>
                         </div>
                         <div class="progress-inner purplish">
-									<span class="progress-bg" data-width="65">
+									<span class="progress-bg" data-width="60">
 									</span>
                         </div>
                     </div>
 
                     <a class="button dark" href="#"><i class="fa fa-download"></i> Download Resume</a>
-                    <a class="button red" href="#"><i class="fa fa-briefcase"></i> Hire Me For Work</a>
+                    <a class="button red" href="#contact"><i class="fa fa-briefcase"></i> Hire Me For Work</a>
 
                 </div>
 
@@ -233,8 +235,8 @@
                 <div class="ewf-row">
 
                     <div class="heading-section bottom-mrgn">
-                        <h1>Work Experience</h1>
-                        <h3>My previous associations</h3>
+                        <h1>My Experience</h1>
+                        {{--<h3>My previous associations</h3>--}}
                     </div>
 
                     <section id="cd-timeline" class="cd-container">
@@ -245,77 +247,77 @@
                             </div> <!-- cd-timeline-img -->
 
                             <div class="cd-timeline-content">
-                                <h2 class="green">Web Design Agency</h2>
-                                <h3 class="green">Senior UI Designer</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2013 - Present</span>
+                                <h2 class="blue"><a href="http://www.woxiprogrammers.com" target="_blank"><img src="{{asset('front/images/woxi.png')}}" style="height:50px;width:100px" alt=""/></a></h2>
+                                <h3 class="blue">Software Engineer</h3>
+                                <p>Responsible for working on a range of projects, designing appealing websites and interacting on a daily basis with graphic designers, back-end developers and DB designers. Participating in discussions with clients to clarify what they want. Developing prototypes for apps and websites. Provide guidance to other team members on web development issues. Designing system architecture for projects.</p>
+                                <span class="cd-date">2014 - Present</span>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img red-bg">
-                                <i class="fa fa-bookmark"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img red-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="red">WebCode LTD</h2>
-                                <h3 class="red">Senior UI Designer</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2012 - 2013</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="red"><a href="http://www.sinhgad.edu/" target="_blank"><img src="{{asset('front/images/sit.jpg')}}" style="height:50px;width:80px" alt=""/></a><a href="http://www.unipune.ac.in/" target="_blank"><img src="{{asset('front/images/unipune.jpg')}}" style="height:50px;width:80px" alt=""/></a><br/>Sinhgad Academy Of Engineering - University Of Pune</h2>--}}
+                                {{--<h3 class="red">Bachelor of Engineering - Information Technology</h3>--}}
+                                {{--<p>here i have focused on system programming, software engineering, database and programming languages like C, PHP.</p>--}}
+                                {{--<span class="cd-date">2010 - 2013</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img purple-bg">
-                                <i class="fa fa-briefcase"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img purple-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="purple">Envato Market Place Inc.</h2>
-                                <h3 class="purple">Senior UI Designer</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2009 - 2012</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="purple"><a href="http://jspm.edu.in/" target="_blank"><img src="{{asset('front/images/jspm.gif')}}" style="height:50px;width:80px" alt=""/></a><br/>JSPM College</h2>--}}
+                                {{--<h3 class="purple">Engineering Diploma (Polytechnic) Information Technology.</h3>--}}
+                                {{--<p>here i have studied different subjects like operating systems, data structures, MIS, RDBMS and programming languages like C, C++, and JAVA</p>--}}
+                                {{--<span class="cd-date">2007 - 2010</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img yellow-bg">
-                                <i class="fa fa-bookmark"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img yellow-bg">--}}
+                                {{--<i class="fa fa-bookmark"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="yellow">Developer Inc</h2>
-                                <h3 class="yellow">Senior UI Designer</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2008 - 2009</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="yellow">Developer Inc</h2>--}}
+                                {{--<h3 class="yellow">Senior UI Designer</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2008 - 2009</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img blue-bg">
-                                <i class="fa fa-briefcase"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img blue-bg">--}}
+                                {{--<i class="fa fa-briefcase"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="blue">Envato Market Place Inc.</h2>
-                                <h3 class="blue">Senior UI Designer</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2007 - 2008</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="blue">Envato Market Place Inc.</h2>--}}
+                                {{--<h3 class="blue">Senior UI Designer</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2007 - 2008</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img green-bg">
-                                <i class="fa fa-bookmark"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img green-bg">--}}
+                                {{--<i class="fa fa-bookmark"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="green">Ultra Tech Inc</h2>
-                                <h3 class="green">Senior UI Designer</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2003 - 2007</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="green">Ultra Tech Inc</h2>--}}
+                                {{--<h3 class="green">Senior UI Designer</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2003 - 2007</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
                     </section> <!-- cd-timeline -->
 
@@ -387,28 +389,15 @@
                     <section id="cd-timeline" class="cd-container">
 
                         <div class="cd-timeline-block">
-                            <div class="cd-timeline-img green-bg">
-                                <i class="fa fa-book"></i>
-                            </div> <!-- cd-timeline-img -->
-
-                            <div class="cd-timeline-content">
-                                <h2 class="green">Master Degree of Design</h2>
-                                <h3 class="green">University of Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2008</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
-
-                        <div class="cd-timeline-block">
                             <div class="cd-timeline-img red-bg">
                                 <i class="fa fa-book"></i>
                             </div> <!-- cd-timeline-img -->
 
                             <div class="cd-timeline-content">
-                                <h2 class="red">Bachelor of Arts</h2>
-                                <h3 class="red">University of Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2003 - 2007</span>
+                                <h2 class="red"><a href="http://www.sinhgad.edu/" target="_blank"><img src="{{asset('front/images/sit.jpg')}}" style="height:50px;width:80px" alt=""/></a><a href="http://www.unipune.ac.in/" target="_blank"><img src="{{asset('front/images/unipune.jpg')}}" style="height:50px;width:80px" alt=""/></a><br/>Sinhgad Academy Of Engineering - University Of Pune</h2>
+                                <h3 class="red">Bachelor of Engineering - Information Technology</h3>
+                                <p>here i have focused on system programming, software engineering, database and programming languages like C, PHP.</p>
+                                <span class="cd-date">2010 - 2013</span>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -418,51 +407,90 @@
                             </div> <!-- cd-timeline-img -->
 
                             <div class="cd-timeline-content">
-                                <h2 class="purple">Envato Best UI Design</h2>
-                                <h3 class="purple">University of Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2003 - 2007</span>
+                                <h2 class="purple"><a href="http://jspm.edu.in/" target="_blank"><img src="{{asset('front/images/jspm.gif')}}" style="height:50px;width:80px" alt=""/></a><br/>JSPM College</h2>
+                                <h3 class="purple">Engineering Diploma (Polytechnic) Information Technology.</h3>
+                                <p>here i have studied different subjects like operating systems, data structures, MIS, RDBMS and programming languages like C, C++, and JAVA</p>
+                                <span class="cd-date">2007 - 2010</span>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img yellow-bg">
-                                <i class="fa fa-book"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img green-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="yellow">Learning Creativity Insitute</h2>
-                                <h3 class="yellow">University of Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2003 - 2007</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="green">Master Degree of Design</h2>--}}
+                                {{--<h3 class="green">University of Design</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2008</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img blue-bg">
-                                <i class="fa fa-book"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img red-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="blue">College of UX Design</h2>
-                                <h3 class="blue">University of Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2007 - 2007</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="red">Bachelor of Arts</h2>--}}
+                                {{--<h3 class="red">University of Design</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2003 - 2007</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img green-bg">
-                                <i class="fa fa-book"></i>
-                            </div> <!-- cd-timeline-img -->
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img purple-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
 
-                            <div class="cd-timeline-content">
-                                <h2 class="green">UI Design Insitute</h2>
-                                <h3 class="green">University of Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-                                <span class="cd-date">2003 - 2007</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="purple">Envato Best UI Design</h2>--}}
+                                {{--<h3 class="purple">University of Design</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2003 - 2007</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
+
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img yellow-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
+
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="yellow">Learning Creativity Insitute</h2>--}}
+                                {{--<h3 class="yellow">University of Design</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2003 - 2007</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
+
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img blue-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
+
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="blue">College of UX Design</h2>--}}
+                                {{--<h3 class="blue">University of Design</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2007 - 2007</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
+
+                        {{--<div class="cd-timeline-block">--}}
+                            {{--<div class="cd-timeline-img green-bg">--}}
+                                {{--<i class="fa fa-book"></i>--}}
+                            {{--</div> <!-- cd-timeline-img -->--}}
+
+                            {{--<div class="cd-timeline-content">--}}
+                                {{--<h2 class="green">UI Design Insitute</h2>--}}
+                                {{--<h3 class="green">University of Design</h3>--}}
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>--}}
+                                {{--<span class="cd-date">2003 - 2007</span>--}}
+                            {{--</div> <!-- cd-timeline-content -->--}}
+                        {{--</div> <!-- cd-timeline-block -->--}}
 
                     </section> <!-- cd-timeline -->
 
